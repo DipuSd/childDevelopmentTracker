@@ -25,7 +25,7 @@ function CreateAccountStep1() {
   return (
     <div className="min-h-screen bg-white flex flex-col px-6 py-8">
       {/* Header section */}
-      <div className="mb-6">
+      <div className="mb-6 border-b border-gray-200">
         <h1 className="text-2xl font-bold text-gray-900">Create Account</h1>
         <p className="text-sm mt-1 text-gray-500">Step 1 of 3</p>
       </div>

@@ -31,7 +31,7 @@ function CreateAccountStep2() {
   return (
     <div className="min-h-screen bg-white flex flex-col px-6 py-8">
       {/* Header section */}
-      <div className="mb-6">
+      <div className="mb-6 border-b border-gray-200">
         <h1 className="text-2xl font-bold text-gray-900">Create Account</h1>
         <p className="text-gray-500 text-sm mt-1">Step 2 of 3</p>
       </div>
@@ -150,6 +150,7 @@ function CreateAccountStep2() {
               ? "opacity-100 hover:opacity-85 cursor-pointer"
               : "opacity-20"
           } bg-gradient-to-r from-blue-500 to-purple-500 text-white`}
+          disabled={!isFormValid}
         >
           Continue
           <svg
