@@ -20,7 +20,7 @@ function Milestones({ props }) {
       break;
   }
   return (
-    <div className="bg-gray-200 rounded-md p-2">
+    <div className="bg-gray-100 rounded-md p-2">
       <div className=" flex justify-between ">
         <div className="flex">
           {props.taskCompleted ? (

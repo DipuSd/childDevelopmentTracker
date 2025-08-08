@@ -350,6 +350,63 @@ function Homepage() {
             ))}
           </div>
         </section>
+        {/* Milestone check section */}
+        <section className="w-full border border-orange-200 bg-orange-100 rounded-lg px-2 py-6 shadow-sm">
+          <div className="flex items-start">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="#F97316" // Tailwind's orange-500
+              className="w-8 h-8"
+            >
+              <path
+                fillRule="evenodd"
+                d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zM12 8.25a.75.75 0 01.75.75v3.75a.75.75 0 01-1.5 0V9a.75.75 0 01.75-.75zm0 8.25a.75.75 0 100-1.5.75.75 0 000 1.5z"
+                clipRule="evenodd"
+              />
+            </svg>
+            <div className="flex flex-col pl-2">
+              <h2 className="font-semibold">Milestone Check</h2>
+              <p className="text-sm text-gray-600">
+                Some 5-month milestones are pending. Consider consulting your
+                pediatrician if concerns persist
+              </p>
+              <button className="p-1 border border-orange-200 w-30 rounded-xl bg-gray-100 cursor-pointer hover:bg-orange-400 mt-2 hover:text-white">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </section>
+        {/*bottom button section  */}
+        <section className="flex items-center justify-center space-x-4">
+          <button
+            onClick="#"
+            className=" hover:opacity-85 cursor-pointer flex-1 border border-gray-300 bg-gradient-to-r from-blue-500 to-purple-500 py-2 rounded-lg text-white flex flex-col items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+            Track Today
+          </button>
+          <button
+            onClick="#"
+            className=" hover:opacity-85 cursor-pointer flex-1 border border-gray-300 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg text-white p-2 flex flex-col items-center"
+          >
+            <img src="/babyIcon.png" alt="baby" className="h-6 w-6" />
+            Baby's Profile
+          </button>
+        </section>
       </main>
     </div>
   );
