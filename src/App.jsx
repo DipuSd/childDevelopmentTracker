@@ -5,13 +5,14 @@ import LoginPage from "./LoginPage";
 import CreateAccountStep1 from "./CreateAccountStep1";
 import CreateAccountStep2 from "./CreateAccountStep2";
 import CreateAccountStep3 from "./CreateAccountStep3";
+import Homepage from "./Homepage";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <CreateAccountStep3 />
+      <Homepage />
     </>
   );
 }
